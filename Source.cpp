@@ -61,7 +61,7 @@ struct Firework
 	// Local timer to safe current lifetime
 	float fLifeTimer;
 
-	// How long particle will be alive
+	// How long particles will be alive
 	float fLifeTime;
 	
 	std::vector<Particle> vecParticles;
