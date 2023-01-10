@@ -172,10 +172,7 @@ public:
 				}
 
 				if (f.fLifeTimer > f.fLifeTime)
-				{
 					vecFireworks.erase(vecFireworks.begin() + i);
-					goto out;
-				}
 				else
 					f.fLifeTimer += fElapsedTime;
 			}
@@ -191,7 +188,6 @@ public:
 				Draw((int)f.x, (int)f.y, olc::WHITE);
 			}
 
-out:
 			i++;
 		}
 
